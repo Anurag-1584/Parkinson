@@ -1,4 +1,4 @@
-Parkinson's Disease Detection using Machine Learning
+#Parkinson's Disease Detection using Machine Learning
 A machine learning prototype for detecting Parkinson's-like patterns
 from voice biomarkers and spiral drawing images.
 The project uses the UCI Parkinson's Dataset for voice-based
@@ -8,7 +8,7 @@ simple multimodal screening prototype.
 > \*\*Disclaimer:\*\* This project is for educational and research purposes
 > only. It is not a medical diagnostic system and should not be used as
 > a substitute for professional clinical evaluation.
-Project Overview
+##Project Overview
 The notebook covers:
 Exploratory Data Analysis (EDA)
 Voice-feature preprocessing and scaling
@@ -57,7 +57,7 @@ contain recognizable labels such as `healthy`, `control`, `parkinson`,
 `parkinsons`, `pd`, `patient`, or `patients`.
 The spiral pipeline is separate from the voice pipeline; the image
 features are not mixed directly with the UCI voice features.
-Machine Learning Pipeline
+###Machine Learning Pipeline
 1. Exploratory Data Analysis
 The notebook performs:
 Dataset inspection
