@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Datasets
+spiral_dataset/
+
+# Audio files
+*.wav
+*.mp3
+
+# Temporary files
+*.tmp
+*.log
